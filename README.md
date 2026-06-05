@@ -43,8 +43,8 @@ npm start
 {
   "mcpServers": {
     "laiye-adp": {
-      "command": "node",
-      "args": ["D:/playground/docs/laiye-adp-mcp-nodejs/dist/index.js"],
+      "command": "npx",
+      "args": ["-y", "@laiye-adp/mcp"],
       "env": {
         "ADP_API_KEY": "your-adp-api-key"
       }
