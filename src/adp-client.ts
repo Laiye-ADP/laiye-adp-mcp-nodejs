@@ -50,6 +50,7 @@ function buildHeaders(_auth: AuthKind, config: RequestConfig): Headers {
   }
 
   headers.set("X-API-KEY", config.apiKey);
+  headers.set("X-Api-Source", "npm-mcp");
   return headers;
 }
 
